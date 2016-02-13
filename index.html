@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="InstaTagApp">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+  <title>InstaTag -Find Popular Instagram photos by Tag #</title>
+
+  <!-- CSS  -->
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+ </head>
+<body>
+  <nav class="white" role="navigation">
+    <div class="nav-wrapper container">
+      <a id="logo-container" href="#home" class="brand-logo teal-text">InstaTag</a>
+      <ul class="right">
+        <!-- <li><a href="#users">Users</a></li> -->
+      </ul>
+
+      <ul id="nav-mobile" class="side-nav">
+        <!-- <li><a href="#users">Users</a></li> -->
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container" ng-view>
+    
+  </div>
+
+  <footer class="page-footer teal">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">About</h5>
+          <p class="grey-text text-lighten-4">
+            InstaTag is .....
+          </p>
+
+
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Support</h5>
+          <ul>
+            <li><a class="white-text" href="#!">Help Center</a></li>
+            <li><a class="white-text" href="#!">Get Started</a></li>
+            <li><a class="white-text" href="#!">Privacy and Terms</a></li>
+            <li><a class="white-text" href="#!">Copyright</a></li>
+          </ul>
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Connect</h5>
+          <ul>
+            <li><a class="white-text" href="#!">Facebook</a></li>
+            <li><a class="white-text" href="#!">Twitter</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      Copyright &copy; InstaTagApp, Inc
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="js/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  <script src="js/instafeed.js"></script>
+  <!-- ANGULAR -->
+  <script src="js/angular/angular.min.js"></script>
+  <script src="js/angular/angular-route.min.js"></script>
+  <script src="js/app.js"></script>
+  <!-- Controller -->
+  <script src="js/controllers/controller.js"></script>
+  <!-- Maps -->
+
+  </body>
+</html>
